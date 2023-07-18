@@ -18,8 +18,8 @@ public class C06_DataCasting {
 
         System.out.println("lütfen bir tamsayi giriniz");
 
-        int sayiİnt= scan.nextInt();
+        int sayiInt= scan.nextInt();
 
-        System.out.println((int) (sayiDbl/sayiİnt));
+        System.out.println((int) (sayiDbl/sayiInt));
     }
 }
