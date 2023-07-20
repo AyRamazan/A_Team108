@@ -44,6 +44,12 @@ public class C01_Pre_PostIncrement {
 
 
         sayi=10;
+        sayi++;
+        ++sayi;
+        System.out.println(sayi);
+
+
+        sayi=10;
         System.out.println(sayi++);
         //java ayni satirda iki islem oldugundan siralama yapar
         //eger ++ variable'dan sonra ise artirma islemini sonra yapar
