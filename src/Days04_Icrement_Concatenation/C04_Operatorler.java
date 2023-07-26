@@ -7,15 +7,13 @@ public class C04_Operatorler {
         int b = 15;
         boolean c;
 
-        System.out.println(c=a*15==b*10);
+        System.out.println(c=a*15==b*10);// true
 
-        System.out.println(c);
+        System.out.println(c); // true
 
-        System.out.println(!true);
+        System.out.println(!true); // false
 
-        System.out.println(!(a<b));
-
-
+        System.out.println(!(a<b));// false
 
 
     }

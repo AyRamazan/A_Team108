@@ -13,9 +13,9 @@ public class C03_Concatenation {
 
         System.out.println(a+b);//30
 
-        System.out.println(str1+a+b);// ""+10+20== "10"+20 =="1020"==1020
+        System.out.println(str1+a+b);// ""+10+20== "10"+20 =="1020"== "1020"
 
-        System.out.println(a+str2+b);//10 + " " + 20 == "10 "+20 == " 10 20 " == 10 20
+        System.out.println(a+str2+b);//10 + " " + 20 == "10 "+20 == " 10 20 " == "10 20"
 
         System.out.println(a+b+str3);// 10 + 20 + "_"== 30+"-" == "30-"
 
@@ -38,11 +38,6 @@ public class C03_Concatenation {
         System.out.println(s1+(aa*bb)+s3);
         System.out.println(s1+aa+bb+s3);
         System.out.println(s1+(aa+bb)+s3);
-
-
-
-
-
 
 
     }
