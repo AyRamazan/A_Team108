@@ -43,15 +43,7 @@ public class C04_Operatorler {
                 bu ucgenin eskenar olduğunu kontrol etmek isterseniz
                 a==b && b==c
 
-
-
-
-
-
          */
-
-
-
 
     }
 }
