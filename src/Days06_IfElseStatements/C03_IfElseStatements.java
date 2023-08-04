@@ -18,6 +18,10 @@ public class C03_IfElseStatements {
 
         if (girilenKarakter>='a' && girilenKarakter<='z'){
             //kucuk harf ise buyuk harf olarak yazdiralim
+            System.out.println((char)(girilenKarakter-32));
+            System.out.println(Character.toUpperCase(girilenKarakter));
+
+
        } else {
             //kucuk harf degilse girilen harfi yazdiralim
             System.out.println(girilenKarakter);
