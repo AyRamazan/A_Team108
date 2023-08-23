@@ -4,7 +4,7 @@ import java.util.Scanner;
 
 public class C09_NestedIfElse {
     public static void main(String[] args) {
-        /*
+
         /*
         Kullanicidan cinsiyetini ve yasini alin,
         Kadin, 60 yas ve uzeri, Erkek 65 yas ve uzeri emekli olabilir
@@ -17,6 +17,8 @@ public class C09_NestedIfElse {
         degiskenlerden birini oncelige alarak ona göre bir if else yapisi kurulur.
         ornegin bu soruda kadin/erkek secimini ana degisken yapalim
          */
+
+
 
         Scanner scan = new Scanner(System.in);
         System.out.println("Lütfen cinsiyetinizi giriniz\nK:Kadin, E: Erkek");
