@@ -23,6 +23,19 @@ public class C10_NestedIfElse {
         System.out.println("Musteri kartiniz var mi \n E:Evet H:Hayir");
         char kartVarmi=scan.next().charAt(0);
 
+        // kart ana degisken olsun
+
+        if (kartVarmi=='E' || kartVarmi=='e'){ //kart var
+            if (urunAdedi<=0) System.out.println("gecersiz urun miktari");
+            else if (urunAdedi>10) System.out.println("% 20 indirimli toplam fiyat : " +(urunAdedi*listeFiyati*0.8));
+            else System.out.println("% 15 indirimli toplam fiyat : " + (urunAdedi*listeFiyati*0.85));
+        } else if (kartVarmi== 'H' || kartVarmi== 'h') { // kart yok
+            if (urunAdedi<=0) System.out.println("Gecersiz urun miktari");
+            else if (urunAdedi>10) System.out.println("% 15 indirimli toplam fiyat : " + (urunAdedi*listeFiyati*0.85));
+            else System.out.println("% 10 indirimli toplam fiyat : "+ (urunAdedi*listeFiyati*0.9));
+
+        }else System.out.println("kart bilgisi gecersiz"); // hatali kart bilgisi
+
 
     }
 }
