@@ -9,5 +9,8 @@ public class C05 {
 
         System.out.println("aeae");
 
+        System.out.println("aeağea");
+
+
     }
 }
