@@ -11,6 +11,10 @@ public class C05 {
 
         System.out.println("aeağea");
 
+        System.out.println("aeaeae");
+
+        System.out.println("aeea");
+
 
     }
 }
