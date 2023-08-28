@@ -1,4 +1,4 @@
-package Days07;
+package Days07_Ternary_SwitchStatements;
 
 public class C05 {
     public static void main(String[] args) {
