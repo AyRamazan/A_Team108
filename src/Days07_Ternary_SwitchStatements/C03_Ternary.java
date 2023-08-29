@@ -26,6 +26,5 @@ public class C03_Ternary {
         System.out.println(input%2==0 ? "cift sayi" : "tek sayi");
 
 
-
     }
 }

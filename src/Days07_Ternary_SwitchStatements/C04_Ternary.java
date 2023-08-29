@@ -46,7 +46,6 @@ public class C04_Ternary {
         eger 100'den buyukse bunu 5'e bolup, bolum sonucunun tek sayi olup olmadigini kontrol edin,
         eger 100'den buyuk degilse, 10 ile bolumunden kalani bulup, bu kalani 5 arttirin,
 
-
         Bu tur kompleks islemleri TERNARY İLE YAPMAYİZ
 
          */
