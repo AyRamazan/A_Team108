@@ -22,8 +22,7 @@ public class C08_SwitchStatements {
         if (islem=='+'){
             System.out.println("Sayilarin toplamı :" + (sayi1+sayi2));
         } else if (islem=='-') {
-            System.out.println();
-            System.out.println("Sayilarin son hali :" + (sayi1-sayi2));
+            System.out.println("Sayilarin farki :" + (sayi1-sayi2));
         } else if (islem=='*') {
             System.out.println("Sayilarin carpımı :" + (sayi1*sayi2));
         } else if (islem=='/') {
@@ -31,6 +30,31 @@ public class C08_SwitchStatements {
         }else
             System.out.println("yanlis islem tercihi");
 
+        //Switch statement ile yapalim
 
+        switch (islem){
+            case '+':
+                System.out.println("Sayilarin toplamı :" + (sayi1+sayi2));
+                break;
+            case  '-':
+                System.out.println("Sayilarin farki :" + (sayi1-sayi2));
+                break;
+            case '*':
+                System.out.println("Sayilarin carpimi :" + (sayi1*sayi2));
+                break;
+            case '/':
+                System.out.println("Sayilarin bolumu :" + (sayi1/sayi2));
+                break;
+            default:
+                System.out.println("yanlis islem tercihi");
+
+
+
+
+
+
+
+
+        }
     }
 }
