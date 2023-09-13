@@ -55,7 +55,5 @@ public class C07_SubString {
 
         //System.out.println(str.substring(str.length()+1)); Hata verir
 
-
-
     }
 }
