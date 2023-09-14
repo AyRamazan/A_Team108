@@ -18,6 +18,17 @@ public class C07_IlkTest {
         String sonucSayisiString=input.substring(indexOf+3,indexResults-1);
         System.out.println(sonucSayisiString);
 
+        //arama sonuc sayisinin 50'den fazla oldugunu test edin
+        int sonucSayisiInt= Integer.parseInt(sonucSayisiString);
+
+        if (sonucSayisiInt>50){
+            System.out.println("Nutella arama testi PASSED");
+        }else{
+            System.out.println("istenen kadar sonuc yok, Nutella arama testi FAILED");
+        }
+
+
+
 
 
 
