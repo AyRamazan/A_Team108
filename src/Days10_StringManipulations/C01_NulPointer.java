@@ -47,7 +47,9 @@ public class C01_NulPointer {
 
         System.out.println(str4);// null
         System.out.println(str4+ "Ali Can");//nullAli Can
-        System.out.println(str4.concat("Ali Can"));
+        System.out.println(str4.concat("Ali Can"));// NullPointerException
+
+
 
 
 
