@@ -13,7 +13,7 @@ public class C06_Soru {
         - uzunlugu en az 10 karakter olmali
          */
 
-        String sifre= "abc1453";
+        String sifre= "abc555551453";
 
         /*
         Bu soruda sartlari bagimsiz if cumlesi ile yapmak veya if-else ile yapmak mumkundur
@@ -44,26 +44,29 @@ public class C06_Soru {
         }
 
         //- son karakter rakam olmali
-        if (!(sifre.charAt(sifre.length()-1)>=0 && sifre.charAt(sifre.length()-1)<=9)) {
-
+        if (!(sifre.charAt(sifre.length()-1)>='0' && sifre.charAt(sifre.length()-1)<='9')) {
             //son karakter rakam degilse rapor yazdir
+            System.out.println("Son karakter rakam olmali");
+            flag++;
+        }
 
-
-            // - sifre bosluk icermemeli
-            // - uzunlugu en az 10 karakter olmali
-
-            System.out.println("hello");
-
+        // - sifre bosluk icermemeli
+        if (sifre.contains(" ")) {
+            System.out.println("sifre bosluk icermemeli");
+            flag++;
         }
 
 
+        // - uzunlugu en az 10 karakter olmali
+        if (!(sifre.length()>10)) {
+            System.out.println("uzunlugu en az 10 karakter olmali");
+            flag++;
+        }
 
+        System.out.println(flag);
 
-
-
-
-
-
-
+        if (flag==0){
+            System.out.println("sifreniz basariyla kaydedildi");
+        }
     }
 }
