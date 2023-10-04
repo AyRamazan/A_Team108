@@ -19,6 +19,7 @@ public class C03_ReplaceAll {
 
         /*
         replace method'u zaten istenen degisikligi verilen özellige uyan tum degerler icin yapar
+
         eger genellemeyi butun sayilari, butun space'leri, butun ozel karakterleri gibi genisletmek istersek
         replace() yerine replaceAll() kullaniriz.
 
