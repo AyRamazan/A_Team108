@@ -1,6 +1,6 @@
 package Days10_StringManipulations;
 
-public class C13 {
+public class C10_ForLoop {
     public static void main(String[] args) {
 
         System.out.println("hello");
