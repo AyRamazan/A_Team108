@@ -18,8 +18,5 @@ public class C01_ForLoop {
             System.out.print(girilenKarakter+i+" ");
 
         }
-
-
-
     }
 }
