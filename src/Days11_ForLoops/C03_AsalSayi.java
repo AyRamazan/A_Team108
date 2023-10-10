@@ -22,8 +22,9 @@ public class C03_AsalSayi {
                 // Java bir loop'un icerisinde "break" gorurse
                 // o loopu bitirir
 
-
             }
         }
+
+        System.out.println("hello");
     }
 }
