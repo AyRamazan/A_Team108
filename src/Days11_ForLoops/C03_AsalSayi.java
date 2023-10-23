@@ -10,24 +10,21 @@ public class C03_AsalSayi {
          */
 
 
-        int input=21;
+        int input=4237;
+        String sonuc="Sayi asal";
 
         for (int i = 2; i <input ; i++) {
 
             if (input%i==0){
 
-               System.out.println(i);
-               System.out.println("sayi asal degil");
+               sonuc="Sayi asal degil";
                break;
                 // Java bir loop'un icerisinde "break" gorurse
                 // o loopu bitirir
 
             }
         }
-
-        System.out.println("hello");
-
-        System.out.println("hello");
+        System.out.println(sonuc);
 
         System.out.println("hello");
     }
