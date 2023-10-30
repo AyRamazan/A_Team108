@@ -37,5 +37,7 @@ public class C03_AsalSayi {
         System.out.println("hello");
 
         System.out.println("hello");
+
+        System.out.println("hello");
     }
 }
