@@ -162,26 +162,7 @@ public class C03_AsalSayi {
             default:
                 System.out.println("yanlis gün ismi");
 
+
         }
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
     }
 }
