@@ -13,7 +13,7 @@ public class C06_Soru {
         - uzunlugu en az 10 karakter olmali
          */
 
-        String sifre= "abc555551453";
+        //String sifre= "abc555551453";
 
         /*
         Bu soruda sartlari bagimsiz if cumlesi ile yapmak veya if-else ile yapmak mumkundur
@@ -34,6 +34,11 @@ public class C06_Soru {
         veya basta verdiğimiz deger olumsuz bir durum oldugunda arttirilir,
         en sonda kontrol edip eger bastaki degeri hala koruyorsa basarili olmustur, diyebiliriz
          */
+
+
+
+
+        /*
 
         //- ilk harf kucuk harf olmali
         int flag=0;
@@ -56,7 +61,6 @@ public class C06_Soru {
             flag++;
         }
 
-
         // - uzunlugu en az 10 karakter olmali
         if (!(sifre.length()>10)) {
             System.out.println("uzunlugu en az 10 karakter olmali");
@@ -67,6 +71,41 @@ public class C06_Soru {
 
         if (flag==0){
             System.out.println("sifreniz basariyla kaydedildi");
+        }
+
+         */
+
+        String sifre= "abc555551453";
+        /*
+
+        - ilk harf kucuk harf olmali
+        - son karakter rakam olmali - sifre bosluk icermemeli
+        - uzunlugu en az 10 karakter olmali
+
+         */
+
+        int flag=0;
+
+
+        if (!(sifre.charAt(0)>='a' && sifre.charAt(0)<='z')){
+            System.out.println("ilk harf kucuk olmalı");
+            flag++;
+        }
+        if (!(sifre.charAt(sifre.length()-1)>='0' && sifre.charAt(sifre.length()-1)<='9')) {
+            System.out.println("Son karakter rakam olmalı");
+            flag++;
+        }
+
+        if (sifre.contains(" ")){
+            System.out.println("sifre bosluk icermemeli");
+            flag++;
+        }
+        if (!(sifre.length()>=10)){
+            System.out.println("sifrenin uzunlugu en az 10 karakter olmalı");
+            flag++;
+        }
+        if (flag==0){
+            System.out.println("sifre basariyla kaydedildi");
         }
     }
 }

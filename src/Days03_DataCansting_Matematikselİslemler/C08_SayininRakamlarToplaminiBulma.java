@@ -44,18 +44,5 @@ public class C08_SayininRakamlarToplaminiBulma {
 
         System.out.println("girilen sayinin rakamlar toplami:"+rakamlarToplami);
 
-
-
-
-
-
-
-
-
-
-
-
-
-
     }
 }

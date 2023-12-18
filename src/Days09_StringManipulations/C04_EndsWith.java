@@ -35,6 +35,7 @@ public class C04_EndsWith {
            System.out.println("mail gmail olmali");
        } else if (!girilenMail.endsWith("@gmail.com")) {
            System.out.println("mailde yazim hatasi var");
+
        }
     }
 }
