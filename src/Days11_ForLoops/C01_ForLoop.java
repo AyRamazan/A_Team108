@@ -15,7 +15,7 @@ public class C01_ForLoop {
         char girilenKarakter=scan.next().charAt(0);
 
         for (int i = 1; i <=10 ; i++) {
-            System.out.print(girilenKarakter+i+" ");
+            System.out.print((char)(girilenKarakter+i) + " ");
 
         }
     }

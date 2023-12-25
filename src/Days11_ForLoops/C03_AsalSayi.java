@@ -21,10 +21,7 @@ public class C03_AsalSayi {
             if (input%i==0){
                sonuc="Sayi asal degil";
                break;
-
-
-                // Java bir loop'un icerisinde "break" gorurse
-                // o loopu bitirir
+               // Java bir loop'un icerisinde "break" gorurse o loopu bitirir
 
             }
         }
