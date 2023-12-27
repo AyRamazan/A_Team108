@@ -32,8 +32,15 @@ public class C05_ForLoop {
         System.out.println("Sayilarin toplami : " + ToplamSayi+" ");
 
 
-
-
-
+        if (BitisSayi<BaslangicSayi){
+            System.out.println("Baslangic degeri bitis degerinden kucuk olmali");
+        }
+        else{
+            int toplam= 0;
+            for (int i = BaslangicSayi; i <=BitisSayi ; i++) {
+                toplam+=i;// tum sayilari sirasi ile toplam'a ekledik
+            }
+            System.out.println(BaslangicSayi + " ile "+ BitisSayi + " arasindaki sayilarin toplami " + toplam);
+        }
     }
 }

@@ -45,7 +45,7 @@ public class C04_ForLoop {
 
         // Input orak verilen sayidan 100'e kadar tum tamsayilari yazdirin
 
-        for (int i = 1; i >0 ; i++) { //
+        for (int i = 1; i >0 ; i++) { //i-- yaparsak sonsuz loop olusur
             System.out.print(i+ " ");
 
         }
