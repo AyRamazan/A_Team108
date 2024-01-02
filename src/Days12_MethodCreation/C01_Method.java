@@ -15,8 +15,8 @@ public class C01_Method {
 
         //Method'un dondurdugu sonucu kullanmak isterseniz
         //ya yazdirirsiniz
+        System.out.println(str.isBlank());//false
 
-        System.out.println(str.isBlank());
 
         //ya da donen sonucu ileride kullanacaksak atama yapabiliriz
 
