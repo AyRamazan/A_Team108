@@ -10,7 +10,6 @@ public class C04_MethodOverLoading_WhileLoop {
             if (i%7==0){
                 System.out.print(i+" ");
             }
-
         }
 
         System.out.println("");
@@ -24,7 +23,6 @@ public class C04_MethodOverLoading_WhileLoop {
                 System.out.print(sayi+" ");
             }
             sayi++;
-
         }
 
         //for loop ile yapılabilecek bir soruyu illa da while loop ile yapmak daha zahmetli

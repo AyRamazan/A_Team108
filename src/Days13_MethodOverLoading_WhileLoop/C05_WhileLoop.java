@@ -19,7 +19,7 @@ public class C05_WhileLoop {
 
 
         for (int i = 1; i <10000 ; i++) {
-            System.out.println("toplama uzere tamsayi giriniz");
+            System.out.println("toplamak uzere tamsayi giriniz");
             sayi=scan.nextInt();
 
             toplam+=sayi;
@@ -28,6 +28,20 @@ public class C05_WhileLoop {
                 System.out.println("Bu kadar sayi yeter. Toplamlari " + toplam+ " oldu");
                 break;
             }
+        }
+
+        // ayni soruyu while loop ile yapalim
+        toplam=0;
+        sayi=0;
+
+        while (toplam<500){
+                System.out.println("toplamak uzere tamsayi giriniz");
+                sayi = scan.nextInt();
+
+                toplam += sayi;
+
+            System.out.println("Bu kadar sayi yeter. Toplamlari " + toplam+ " oldu");
+
         }
     }
 }
