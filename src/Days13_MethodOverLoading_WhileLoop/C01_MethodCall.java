@@ -1,5 +1,6 @@
 package Days13_MethodOverLoading_WhileLoop;
 
+import Days12_MethodCreation.C03_AsalSayi;
 import Days12_MethodCreation.C07_TerceCevirme;
 import Days12_MethodCreation.C09_FibonacciSerisi;
 
@@ -30,6 +31,22 @@ public class C01_MethodCall {
         }else {
             System.out.println("Palindrome degil");
         }
+
+        // asagida verilen sayinin asal sayi olup olmadigini yazdirin
+        int sayi= 23;
+        System.out.println(C03_AsalSayi.asalSayiMi(sayi));// true
+
+        //kullanıcı true/false dan birsey anlamas, acik bir sekilde yazalim desek
+
+        boolean sonuc= C03_AsalSayi.asalSayiMi(sayi);//true
+
+        if (sonuc){
+            System.out.println("Girilen " + sayi+ " asal.");
+        }else {
+            System.out.println("Girilen " + sayi+ " asal degil.");
+        }
+
+
 
     }
 }
