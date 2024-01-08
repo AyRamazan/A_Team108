@@ -8,7 +8,7 @@ public class C09_FibonacciSerisi {
         FibonaccidenSayiYazdir(16);
     }
 
-    private static void FibonaccidenSayiYazdir(int adet) {
+    public static void FibonaccidenSayiYazdir(int adet) {
 
         // Kullanicinin girdigi sayi 0 veya negatifse
         if (adet<=0){
@@ -32,8 +32,9 @@ public class C09_FibonacciSerisi {
                 sayi1=sayi2;
                 sayi2=sayi3;
 
-
             }
+
+            System.out.println("");
         }
     }
 }
