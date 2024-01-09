@@ -12,7 +12,6 @@ public class C01_IfStatements {
         65-84,999 BB
         85-100 AA
 
-
          */
 
         Scanner scan= new Scanner( System.in);
