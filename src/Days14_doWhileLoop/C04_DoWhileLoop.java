@@ -46,5 +46,6 @@ public class C04_DoWhileLoop {
         }while (karekoku*karekoku<input);
 
         System.out.println(sonuc);
+
     }
 }
