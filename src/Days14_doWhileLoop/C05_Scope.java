@@ -1,6 +1,6 @@
 package Days14_doWhileLoop;
 
-public class C05_Scope {
+public class  C05_Scope {
     int sayi= 10;
     static  int number;
 
@@ -17,7 +17,7 @@ public class C05_Scope {
         //System.out.println(toplam);
         //System.out.println(i);
 
-        //   static int mainSayi=29;
+        //static int mainSayi=29;
 
     }
     public static void method1(){
