@@ -84,11 +84,6 @@ public class C01_Hastane {
 
 
 
-
-
-
-
-
     }
     public static void method1(){
         System.out.println(hastaneAdresi);

@@ -22,13 +22,18 @@ public class C02_Hastane {
 
         per1.hastaneIsmi="Java Hastanesi";
 
+        System.out.println(per1.personelTel); // Telefon
+        System.out.println(per1.personelIsmi); // Harun
+        System.out.println(per2.personelIsmi); // Personel
+        System.out.println(per2.personelAdresi); // Cankaya
 
+        System.out.println(per1.hastaneIsmi);// Java
+        System.out.println(per2.hastaneIsmi);// Java
+        System.out.println(hastaneIsmi); // Java
 
-
-
-
-
-
+        per1.personelIsmi="Mehmet";
+        System.out.println(per1.personelIsmi);// Mehmet
+        System.out.println(per2.personelIsmi); // Personel
 
 
     }
