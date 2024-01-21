@@ -36,5 +36,7 @@ public class C02_Hastane {
         System.out.println(per2.personelIsmi); // Personel
 
 
+
+
     }
 }
