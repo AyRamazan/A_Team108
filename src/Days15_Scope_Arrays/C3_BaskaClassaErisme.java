@@ -12,5 +12,7 @@ public class C3_BaskaClassaErisme {
         classIsmi.staticuyeIsmi seklinde kullanabiliriz
 
          */
+
+
     }
 }
