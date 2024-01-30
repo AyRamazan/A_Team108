@@ -11,6 +11,8 @@ public class C3_BaskaClassaErisme {
         Static olarak isaretlenen class uyelerine
         classIsmi.staticuyeIsmi seklinde kullanabiliriz
 
+
+
          */
 
 
